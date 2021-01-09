@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Startup Name Generator: Ish',
+      title: 'Startup Name Generator',
       home: RandomWords(),
     );
   }
@@ -23,7 +23,7 @@ class RandomWordsState extends State<RandomWords> {
 
     return Scaffold ( 
       appBar: AppBar(
-        title: Text('Startup Name Generator: Ish'),
+        title: Text('Startup Name Generator'),
       ),
       body: _buildSuggestions(),
     );
@@ -51,7 +51,7 @@ class RandomWordsState extends State<RandomWords> {
       }
     );
   }
-  Widget _buildRow(WordPair pair) {
+    Widget _buildRow(WordPair pair) {
     return ListTile(
       title: Text(
         pair.asPascalCase,
