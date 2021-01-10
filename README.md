@@ -16,3 +16,5 @@ For help getting started with Flutter, view
 samples, guidance on mobile development, and a full API reference.
 
 For getting the logo for the iOS and Android buuild, refer this [link](https://www.digitalocean.com/community/tutorials/flutter-app-icons)!
+
+![Snapshot](https://github.com/ishkapoor2000/Flutter_App/blob/master/2021-01-10.png?raw=true)
